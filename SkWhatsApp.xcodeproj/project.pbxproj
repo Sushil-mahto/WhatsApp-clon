@@ -11,6 +11,11 @@
 		CD01232A27BE2A1C009BD3D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01232927BE2A1C009BD3D8 /* ContentView.swift */; };
 		CD01232C27BE2A20009BD3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD01232B27BE2A20009BD3D8 /* Assets.xcassets */; };
 		CD01232F27BE2A21009BD3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD01232E27BE2A21009BD3D8 /* Preview Assets.xcassets */; };
+		CD01233827BE2D49009BD3D8 /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01233727BE2D49009BD3D8 /* ChatRow.swift */; };
+		CD01233A27BE32AE009BD3D8 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01233927BE32AE009BD3D8 /* ChatModel.swift */; };
+		CD01233C27BE3D63009BD3D8 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01233B27BE3D63009BD3D8 /* Date+Helpers.swift */; };
+		CDD6AC0A27BE47BC008020EE /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6AC0927BE47BC008020EE /* ChatViewModel.swift */; };
+		CDD6AC0C27BE4F45008020EE /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6AC0B27BE4F45008020EE /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		CD01232927BE2A1C009BD3D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD01232B27BE2A20009BD3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD01232E27BE2A21009BD3D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD01233727BE2D49009BD3D8 /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		CD01233927BE32AE009BD3D8 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		CD01233B27BE3D63009BD3D8 /* Date+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
+		CDD6AC0927BE47BC008020EE /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		CDD6AC0B27BE4F45008020EE /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				CD01232927BE2A1C009BD3D8 /* ContentView.swift */,
 				CD01232B27BE2A20009BD3D8 /* Assets.xcassets */,
 				CD01232D27BE2A21009BD3D8 /* Preview Content */,
+				CD01233727BE2D49009BD3D8 /* ChatRow.swift */,
+				CD01233927BE32AE009BD3D8 /* ChatModel.swift */,
+				CD01233B27BE3D63009BD3D8 /* Date+Helpers.swift */,
+				CDD6AC0927BE47BC008020EE /* ChatViewModel.swift */,
+				CDD6AC0B27BE4F45008020EE /* ChatView.swift */,
 			);
 			path = SkWhatsApp;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD01232A27BE2A1C009BD3D8 /* ContentView.swift in Sources */,
+				CD01233827BE2D49009BD3D8 /* ChatRow.swift in Sources */,
 				CD01232827BE2A1C009BD3D8 /* SkWhatsAppApp.swift in Sources */,
+				CD01233A27BE32AE009BD3D8 /* ChatModel.swift in Sources */,
+				CDD6AC0C27BE4F45008020EE /* ChatView.swift in Sources */,
+				CDD6AC0A27BE47BC008020EE /* ChatViewModel.swift in Sources */,
+				CD01233C27BE3D63009BD3D8 /* Date+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
